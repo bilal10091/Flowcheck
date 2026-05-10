@@ -1,4 +1,4 @@
- name: Workflow
+name: Workflow
 
 on:
   push:
@@ -9,7 +9,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - name: jobsname1
-       run: echo "Server is down"
-       
-       
+      - name: jobsname1
+        run: echo "Server is down"
