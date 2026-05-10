@@ -10,6 +10,6 @@ jobs:
 
     steps:
      - name: jobsname1
-       run echo "Server is down"
+       run: echo "Server is down"
        
        
