@@ -1,0 +1,15 @@
+ name: Workflow
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: jobsname1
+       run echo "Server is down"
+       
+       
